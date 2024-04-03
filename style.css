@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100%;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(245, 245, 245);
+}
+
+/*HEADER*/
+
+header {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid;
+}
+header .upper {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.upper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  /* border: 1px solid red; */
+}
+/* .logo{
+  border: 1px solid red;
+} */
+.logo img {
+  width: 220px;
+  /* border: 1px solid red; */
+}
+/* .nav{
+  text-decoration: none;
+  border: 1px solid red;
+} */
+.nav a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  font-size: 20px;
+}
+header .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.right img {
+  width: 35px;
+}
+.right a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+}
+.right .login {
+  border-right: 1px solid;
+}
+.right .cart {
+  position: relative;
+}
+/*MAIN*/
+
+main {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.mycart h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.mycart .shop1 {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  width: 650px;
+  height: 250px;
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px 0;
+}
+.mycart .shop2 {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  width: 650px;
+  height: 250px;
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px 0;
+}
+/* .shop1 .crop{
+  width: 100px;
+  height: 100px;
+  border: 1px solid salmon;
+} */
+.shop1 .bin img {
+  width: 40px;
+  margin-inline: 20px;
+}
+.shop1 .docs img {
+  width: 200px;
+  /* height: 200px;  */
+}
+.shop2 .bin img {
+  width: 40px;
+  margin-inline: 20px;
+}
+.shop2 .docs img {
+  width: 200px;
+  /* height: 200px;  */
+}
+.mycart .box {
+  width: 300px;
+  height: 150px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.mycart h3 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.mycart p {
+  font-size: 20px;
+  color: gray;
+}
+.item {
+  display: flex;
+  justify-content: baseline;
+}
+.dot {
+  display: flex;
+}
+.dot > div {
+  background-color: rgb(231, 243, 254);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.select {
+  width: 70px;
+
+  border-radius: 2px;
+}
+.checkout {
+  width: 650px;
+  height: 450px;
+  /* border: 1px solid red; */
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 90px;
+  padding: 40px;
+}
+.checkout h1 {
+  font-size: 30px;
+}
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.subtotal p {
+  font-size: 20px;
+  color: rgb(122, 137, 166);
+}
+.apply {
+  display: flex;
+  width: 580px;
+  height: 100px;
+
+  align-items: center;
+  border-bottom: 1px solid;
+}
+.apply img {
+  width: 30px;
+}
+input[type="text"] {
+  width: 400px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 10px;
+}
+.apply button {
+  width: 150px;
+  padding: 15px;
+  margin-inline: 10px;
+  border-radius: 15px;
+  border: 2px solid #59c4af;
+  color: rgb(89, 196, 174);
+  background-color: white;
+}
+.total {
+  width: 580px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid salmon; */
+}
+.total p {
+  font-size: 20px;
+}
+.total h1 {
+  color: #59c4af;
+}
+.end button {
+  width: 400px;
+  height: 70px;
+  /* border: 2px solid aqua; */
+}
+main .buttoncheckout {
+  width: 550px;
+  height: 70px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 0.5px solid #59c4af;
+  background-color: rgb(123, 238, 203);
+  font-size: 20px;
+  box-shadow: 4px 4px 20px #59c4af;
+}
